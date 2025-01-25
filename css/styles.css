@@ -1,0 +1,83 @@
+/*TAG SELECTORS*/
+body {
+  background-color: #1f1f1f;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Prompt';
+  letter-spacing: 1px;
+  font-weight: 600;
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 45px;
+  color: #ffffff;
+}
+
+h2 {
+  font-family: 'Karla';
+  letter-spacing: 6px;
+  font-weight: 300;
+  margin: 0;
+  margin-top: 20px;
+  font-size: 25px;
+  color: #898989;
+}
+.pe {
+  display: inline;
+  margin: 30px 20px;
+  font-family: 'Karla';
+  letter-spacing: 1px;
+  font-size: 15px;
+  color: #898989;
+  background-color: #1f1f1f; /* Couleur de fond */
+}
+.custom-btn {
+  border: 2px solid transparent; /* Pas de bordure visible par défaut */
+  border-radius: 50px; /* Bordure arrondie */
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* Bordure active */
+.custom-btn.active {
+  border-color: white; /* La bordure est visible uniquement sur le bouton actif */
+}
+
+/* Ajout de la bordure sur le bouton survolé */
+.custom-btn:hover {
+  border-color: white; /* Affiche la bordure sur le bouton survolé */
+  color: white;
+}
+
+/* Supprime la bordure des autres boutons */
+.custom-btn:hover ~ .custom-btn.active {
+  border-color: transparent; /* Désactive la bordure de l'ancien bouton actif */
+}
+/*CLASS SELECTORS*/
+.page {
+  width: 100%;
+  height: 100vh;
+}
+
+.ent_cont {
+  display: inline-block;
+  font-family: 'Karla';
+  letter-spacing: 1px;
+  font-size: 15px;
+  margin-left: 0.5%;
+  margin-bottom: 0;
+  color: #898989;
+}
+.ent_cont:hover {
+  color: white;
+}
+/*colors:  #Noir_292929 #Gris_ghamak_4D4D4D #Gris_fetag_898989 #Blanc_FFFFFF*/
+/*font: Prompt:Semi_bold Karla:Light*/
+
+/*******************************/
